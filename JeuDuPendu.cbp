@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="JeuDuPendu" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/JeuDuPendu" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/JeuDuPendu" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="CreerCompte.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CreerCompte.h" />
+		<Unit filename="FonctionsUsuelles.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FonctionsUsuelles.h" />
+		<Unit filename="Instructions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Instructions.h" />
+		<Unit filename="JeuDuPendu.cbp" />
+		<Unit filename="Jouer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Jouer.h" />
+		<Unit filename="MeilleursScores.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MeilleursScores.h" />
+		<Unit filename="Quitter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Quitter.h" />
+		<Unit filename="SaveM.bin" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
